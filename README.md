@@ -8,7 +8,7 @@ Extension modules to Redis' native data types and commands
 ## Getting started
 
 ```bash
-cargo +nightly build --release
+cargo build --release
 redis-server --loadmodule ./target/release/libredisschema.so
 ```
 
