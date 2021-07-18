@@ -1,0 +1,10 @@
+[package]
+name = "redisschema"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+redis-module = { path="../redismodule-rs", features = ["experimental-api"]}
